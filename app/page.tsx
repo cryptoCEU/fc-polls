@@ -15,7 +15,7 @@ export default async function Page() {
         <h1 className="text-lg sm:text-2xl font-bold mb-2" style={{color: "white"}}>
           Cryptoplaza Farcaster Polls
         </h1>
-        <h2 className="text-md sm:text-xl mx-4" style={{color: "white"}>
+        <h2 className="text-md sm:text-xl mx-4" style={{color: "white"}}>
           Create a new poll with upto 4 options
         </h2>
         <div className="flex flex-wrap items-center justify-around max-w-4xl my-8 sm:w-full bg-white rounded-md shadow-xl h-full border border-gray-100">
