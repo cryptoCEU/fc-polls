@@ -65,7 +65,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                     flexDirection: 'column',
                     padding: 20,
                 }}>
-                    <h2 style={{textAlign: 'center', color: 'lightgray'}}>{poll.title}</h2>
+                    <h2 style={{textAlign: 'center', color: '#5F58E4'}}>{poll.title}</h2>
                     {
                         pollData.options.map((opt, index) => {
                             return (
