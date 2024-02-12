@@ -93,7 +93,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           <meta name="fc:frame:button:1" content="${button1Text}">
           <meta name="fc:frame:button:2" content="Create your poll">
           <meta name="fc:frame:button:2:action" content="link">
-          <meta name="fc:frame:button:2:target" content="https://www.cryptoplaza-polls.vercel.app">
+          <meta name="fc:frame:button:2:target" content="https://cryptoplaza-polls.vercel.app">
         </head>
         <body>
           <p>${ results || voted ? `You have already voted. You clicked ${buttonId}` : `Your vote for ${buttonId} has been recorded for fid ${fid}.` }</p>
