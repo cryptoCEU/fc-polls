@@ -70,7 +70,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                         pollData.options.map((opt, index) => {
                             return (
                                 <div style={{
-                                    backgroundColor:  showResults ? '#007bff' : '',
+                                    backgroundColor:  showResults ? '#5F58E4' : '',
                                     color: '#fff',
                                     padding: 10,
                                     marginBottom: 10,
